@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+
+  <control namespace="Demo.Controls"
+           constructor="CalculatorControl"
+           version="1.0.0"
+           display-name-key="Calculator"
+           description-key="Simple Calculator PCF"
+           control-type="standard">
+
+    <property name="value"
+              display-name-key="Result"
+              description-key="Calculation result"
+              of-type="SingleLine.Text"
+              usage="bound"
+              required="true" />
+
+    <resources>
+      <code path="index.ts" order="1" />
+      <css path="CalculatorControl.css" order="1" />
+    </resources>
+
+  </control>
+
+</manifest>
