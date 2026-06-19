@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "Node16",
+    "moduleResolution": "Node16",
+    "rootDir": "./CalculatorControl",
+    "jsx": "react",
+    "declaration": true,
+
+    "outDir": "./out",
+
+    "skipLibCheck": true,
+
+    "types": ["powerapps-component-framework"],
+    "typeRoots": ["node_modules/@types"]
+  },
+
+  "include": [
+    "CalculatorControl/**/*"
+  ],
+
+  "exclude": [
+    "node_modules",
+    "out",
+    "generated"
+  ]
+}
